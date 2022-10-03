@@ -1,0 +1,21 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-weight: 900;
+}
+
+select,
+option {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+p {
+  font-weight: 900;
+}

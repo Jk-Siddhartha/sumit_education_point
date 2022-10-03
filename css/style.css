@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  font-family: "Bitter", serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.main-div {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home {
+  width: 100%;
+  height: 80vh;
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+.navbar {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5% 4%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+.logo {
+  width: 150px;
+  /* border: 1px solid red; */
+}
+
+.navbar ul {
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.navbar ul li a {
+  color: #000;
+  margin-right: 30px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.menu-icon {
+  display: none;
+  width: 25px;
+}
+
+.hero-section {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: 10%;
+  left: 0;
+}
+
+.hero-section-left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  background: url("../images/home-img1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.shapedividers_com-9509 {
+  overflow: hidden;
+  position: relative;
+}
+.shapedividers_com-9509::before {
+  content: "";
+  font-family: "shape divider from ShapeDividers.com";
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  bottom: -0.1vw;
+  left: -0.1vw;
+  right: -0.1vw;
+  top: -0.1vw;
+  background-size: 90px 100%;
+  background-position: 0% 50%;
+  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2.17 35.28" preserveAspectRatio="none"><path d="M.5 35.28C1.04 32.2.07 26 .5 19.13.9 12.26 1.06 5.4.38 0H0v35.28z" fill="%230d601c"/><path d="M1 35.28c.8-3.17-.38-7.3-.55-10.04-.17-2.76 1.47-9.25 1.3-12.68C1.58 9.14.91 7.92.88 5.52.86 3.12 1.76 0 1.76 0H0v35.28z" opacity=".5" fill="%230d601c"/><path d="M1.85 35.28c-.83-2.57-.3-7.68-.42-11.8-.12-4.1-.61-6.85-.28-9.57.33-2.73 1.17-5.61 1-8.61-.19-3-.82-4.73-.84-5.3H.1v35.28z" opacity=".5" fill="%230d601c"/></svg>');
+}
+
+.hero-section-right {
+  width: 50%;
+  height: 100%;
+  background: #46b818;
+  background: linear-gradient(
+    90deg,
+    rgba(70, 184, 24, 1) 0%,
+    rgba(13, 232, 90, 1) 0%,
+    #0d601c 100%
+  );
+}
+
+.hero-section-text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60%;
+  z-index: 99;
+  padding: 2% 2%;
+  transform: translate(0%, 40%);
+}
+
+.hero-section-text h1 {
+  color: #fff;
+  width: 100%;
+}
+
+.hero-section-input {
+  width: 100%;
+  padding: 2% 0;
+}
+
+select {
+  padding: 1% 2%;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 1.3% 2%;
+  font-size: 16px;
+  background: #8e44ad;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #9b59b6;
+}
+
+.enroll-class-btn {
+  margin: 1.5% 0;
+}
+
+.enroll-class-btn a {
+  color: #fff;
+}
+
+.hero-section-text p {
+  font-weight: 900;
+  color: #fff;
+  font-size: 22px;
+}
+
+.categories {
+  width: 100%;
+  padding: 2% 0;
+  position: relative;
+  top: 10%;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories-cards {
+  width: 100%;
+  height: 35vh;
+}
+
+.category-card {
+  width: 20%;
+  height: 25vh;
+  border-radius: 6px;
+  float: left;
+  margin: 2% 2.5%;
+  cursor: pointer;
+}
+
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.category-card p {
+  text-align: center;
+}
+
+.our-free-videos {
+  width: 100%;
+  position: relative;
+  top: 10%;
+  background: #ecf0f1;
+}
+
+.our-free-videos h2 {
+  text-align: center;
+  padding: 1% 0;
+}
+
+.our-free-videos-cards {
+  padding: 1% 0;
+}
+
+.our-free-videos-cards > iframe {
+  margin: 1% 1.3%;
+}
+
+.reviews-from-students {
+  position: relative;
+  top: 10%;
+  padding: 1.5% 0;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.reviews-from-students h2 {
+  text-align: center;
+  padding: 1% 0;
+}
+
+.reviews-from-students-cards {
+  width: 98%;
+  height: 38vh;
+  margin: auto;
+  padding: 1% 0;
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.reviews-from-students-cards::-webkit-scrollbar {
+  display: none;
+}
+
+.reviews-from-students-card {
+  cursor: pointer;
+  width: 28%;
+  height: 100%;
+  padding: 2% 1.5%;
+  background: #ecf0f1;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+  flex-basis: 32.3%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0 0.5%;
+}
+
+.reviewers-details {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.reviewer-logo {
+  width: 50px;
+}
+
+.review {
+  font-weight: 600;
+}
+
+/* .footer {
+  width: 100%;
+  padding: 2% 0;
+  background: #000;
+  position: relative;
+  bottom: 0;
+  color: #fff;
+} */
+
+.shapedividers_com-5595 {
+  overflow: hidden;
+  position: relative;
+  height: 50%;
+  background: #1e272e;
+  color: #fff;
+}
+.shapedividers_com-5595::before {
+  content: "";
+  font-family: "shape divider from ShapeDividers.com";
+  position: absolute;
+  z-index: 3;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  bottom: -0.1vw;
+  left: -0.1vw;
+  right: -0.1vw;
+  top: -0.1vw;
+  background-size: 100% 90px;
+  background-position: 50% 0%;
+  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.278 3.62" preserveAspectRatio="none"><path d="M35.278.092S8.238.267 0 3.62V.092z" opacity=".2" fill="%23ffffff"/><path d="M35.278.092S8.238.246 0 3.194V.092z" opacity=".2" fill="%23ffffff"/><path d="M35.278.092S8.238.223 0 2.738V.092zM35.278.092H0V0h35.278z" fill="%23ffffff"/></svg>');
+}
+
+@media (min-width: 2100px) {
+  .shapedividers_com-5595::before {
+    background-size: 100% calc(2vw + 90px);
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+
+.footer > div:nth-child(1) {
+  padding: 2% 0;
+  margin-top: 4%;
+}
+
+.footer > div:nth-child(1) > div {
+  font-size: 25px;
+  padding: 2% 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer > div:nth-child(1) > div > i {
+  cursor: pointer;
+}
+
+.footer > div:nth-child(1) > div > a {
+  color: #fff;
+}
+
+.location {
+  height: 95%;
+  width: 25%;
+  padding: 2% 0;
+}
+
+.address {
+  width: 100%;
+}
+
+.location > iframe {
+  height: 85%;
+  width: 100%;
+}

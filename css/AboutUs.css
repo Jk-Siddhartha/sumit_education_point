@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+.about-page-home {
+  width: 100%;
+  min-height: 98vh;
+}
+
+.about-pages {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  top: 80px;
+  margin-bottom: 10%;
+}
+
+.about-pages > div {
+  text-align: center;
+}
+
+.about-pages > div > p {
+  font-size: 18px;
+  color: #16a085;
+}
+
+.about-pages > div > p > span {
+  font-size: 50px;
+}
+
+.about-pages h2 {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.about-pages p {
+  text-align: center;
+  padding: 1% 0;
+}
+
+.mentor-page {
+  padding: 2% 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.left {
+  width: 18%;
+  box-shadow: -20px 15px 0 0 rgba(52, 73, 94, 0.9);
+}
+
+.right {
+  width: 28%;
+  padding: 5% 2.5%;
+  background: #fff;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.right h1 {
+  color: #2c3e50;
+  font-family: "DynaPuff", cursive;
+  text-align: left;
+}
+
+.right p {
+  text-align: left;
+  margin: 5% 0;
+}
+
+.know-more {
+  background: #2c3e50;
+  border-radius: 2px;
+  padding: 2% 6%;
+  float: left;
+}
+
+.know-more:hover {
+  opacity: 0.8;
+  background: #2c3e50;
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+.Faqs-page-home {
+  width: 100%;
+  min-height: 98vh;
+}
+
+.faqs-pages {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  top: 100px;
+  margin-bottom: 10%;
+}
+
+.faqs-pages h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.faqs-pages-cards {
+  width: 100%;
+  padding: 1.3% 0;
+}
+
+.faqs-pages-card {
+  margin: auto;
+  margin-top: 0.5%;
+  width: 70%;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
+  padding: 0.5% 1%;
+}
+
+.faqs-pages-card .ques {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1%;
+  cursor: pointer;
+}
+
+.ques p {
+  font-size: 20px;
+}
+
+span {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 900;
+  color: #16a085;
+}
+
+.ans {
+  width: 100%;
+  background: #ecf0f1;
+  font-family: "Raleway", sans-serif;
+  max-height: 0px;
+  overflow: hidden;
+}
